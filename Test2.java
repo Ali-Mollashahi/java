@@ -15,15 +15,15 @@ public class Test2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("عدد مورد نظر را وارد کنید: ");
+        System.out.print("Enter the number: ");
         String number = sc.nextLine();
 
-        System.out.print("عدد وارد شده مبنای چند است؟: ");
+        System.out.print("Enter the basae: ");
         int base = sc.nextInt();
 
         if (base == 2 || base == 8 || base == 10 || base == 16) {
 
-            System.out.print("مبنای مورد نظر خود را وارد کنید: ");
+            System.out.print("The base you want to convert to: : ");
             int tobase = sc.nextInt();
 
             if (tobase == 2 || tobase == 8 || tobase == 10 || tobase == 16) {
